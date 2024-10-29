@@ -1,14 +1,17 @@
 import './App.css'
-import Main from './component/main/main'
-import NavBar from './component/navbar/navbar'
+import PDFFormEditor from './component/editpdf'
+
+import PDFTextExtractor from './component/pdfExtract'
+import PDFTextEditor from './component/pdftexteditor'
+
 
 function App() {
   
 
   return (
     <>
-      <NavBar/>
-      <Main/>
+     <PDFTextExtractor />
+     <PDFTextEditor />
     </>
   )
 }

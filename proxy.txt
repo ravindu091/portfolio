@@ -1,2 +1,6 @@
 set HTTP_PROXY = http://10.0.0.1:44355
 set HTTPS_PROXY = https://10.0.0.1:44355
+
+
+setx http_proxy http://10.0.0.1:44355
+setx https_proxy https://10.0.0.1:44355
